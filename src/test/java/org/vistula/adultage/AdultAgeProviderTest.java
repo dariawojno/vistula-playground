@@ -7,6 +7,7 @@ public class AdultAgeProviderTest {
     public void shouldReturnCorrectAgeUSA() {
         assert AdultAgeProvider.getAdultAge("USA") == 21;
     }
+    //
     @Test
     public void shouldReturnCorrectAgeUnitedStates() {
         assert AdultAgeProvider.getAdultAge("United States") == 21;
